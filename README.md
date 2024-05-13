@@ -1,1 +1,1 @@
-# MC
+This repository contains the definition of an XML schema (XSD), documentation and examples for DDCt/g (Digital description of cards of types/groups of measuring instruments, technical systems and devices with measuring functions, virtual measuring systems).
