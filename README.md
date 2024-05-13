@@ -14,4 +14,4 @@ This repository contains the XML Scheme Definition (XSD), a documentation and ex
 
 Contact person: Irina Rodionova
 
-Dmitriy Melnikov, Andrey Pankov, Andrey Kiryanov
+Dmitriy Melnikov, Irina Rodionova, Andrey Pankov, Andrey Kiryanov
