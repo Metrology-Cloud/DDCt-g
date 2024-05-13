@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:string" name="uid"/>
+                <xs:element type="xs:string" name="Title"/>
+                <xs:element type="xs:string" name="Name"/>
+                <xs:element type="xs:string" name="GosNumber"/>
+                <xs:element type="xs:string" name="ManufacturerName"/>
+                <xs:element type="xs:string" name="CountryISO"/>
+                <xs:element type="xs:string" name="CountryName"/>
+                <xs:element type="xs:string" name="HtmlDescription"/>
+                <xs:element maxOccurs="unbounded" name="Devices">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="uid"/>
+                            <xs:element type="xs:string" name="CategoryID"/>
+                            <xs:element type="xs:string" name="CategoryName"/>
+                            <xs:element type="xs:string" name="MitypeTitle"/>
+                            <xs:element type="xs:string" name="MitypeNumber"/>
+                            <xs:element type="xs:string" name="MitypeType"/>
+                            <xs:element type="xs:string" name="Modification"/>
+                            <xs:element type="xs:string" name="Implementation"/>
+                            <xs:element type="xs:string" name="ManufacturerName"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element maxOccurs="unbounded" name="Parameters">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="ParameterID"/>
+                            <xs:element type="xs:string" name="ParameterSectionName"/>
+                            <xs:element type="xs:string" name="ParameterName"/>
+                            <xs:element type="xs:string" name="ParameterDetailName"/>
+                            <xs:element type="xs:string" name="MeasurementName"/>
+                            <xs:element type="xs:string" name="MeasurementGroupCode"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+		<xs:element maxOccurs="unbounded" name="Values">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="DeviceID" type="xs:string"/>
+                            <xs:element name="ParameterID" type="xs:string"/>
+                            <xs:element name="Value" type="xs:string"/>
+                            <xs:element name="uid" type="xs:string"/>
+                            <xs:element name="ValueID" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
