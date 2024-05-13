@@ -10,3 +10,8 @@
 
 This repository contains the XML Scheme Definition (XSD), a documentation and examples for the DDCt/g (Digital description of cards of types/groups of measuring instruments, technical systems and devices with measuring functions, virtual measuring systems). The XSD is licensed by (for accepting) under [Apache License 2.0](/LICENSE).
 
+## Team
+
+Contact person: Irina Rodionova
+
+Dmitriy Melnikov, Andrey Pankov, Andrey Kiryanov
